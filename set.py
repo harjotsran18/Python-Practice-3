@@ -1,0 +1,16 @@
+set_a = {2,4,5,6,7}
+set_b = {5,6,7,8,5}
+set_a.add(11)
+set_b.remove(8)
+print(set_a)
+print(set_b)
+union_set = set_a.union(set_b)
+print("Union set:",union_set)
+intersection_set = set_a.intersection(set_b)
+print("Intersection set: ",intersection_set)
+difference_set = set_a.difference(set_b)
+print("Difference set: ",difference_set)
+sym_differebce_set = set_a.symmetric_difference(set_b)
+print("Sym difference set: ",sym_differebce_set)
+print("Length of set a: ",len(set_a))
+print("Set a after clear:" , set_a)
